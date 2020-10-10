@@ -1,0 +1,280 @@
+
+(base) Kevins-MacBook-Pro-2:~ kevingunawan$ sudo npm install tsc
+npm WARN deprecated tsc@1.20150623.0: you probably meant to install typescript
+npm WARN saveError ENOENT: no such file or directory, open '/Users/kevingunawan/package.json'
+npm WARN enoent ENOENT: no such file or directory, open '/Users/kevingunawan/package.json'
+npm WARN kevingunawan No description
+npm WARN kevingunawan No repository field.
+npm WARN kevingunawan No README data
+npm WARN kevingunawan No license field.
+
++ tsc@1.20150623.0
+added 1 package from 1 contributor and audited 2 packages in 2.804s
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:~ kevingunawan$ sudo npm install -g ts-node
+/usr/local/bin/ts-node -> /usr/local/lib/node_modules/ts-node/dist/bin.js
+/usr/local/bin/ts-node-script -> /usr/local/lib/node_modules/ts-node/dist/bin-script.js
+/usr/local/bin/ts-script -> /usr/local/lib/node_modules/ts-node/dist/bin-script-deprecated.js
+/usr/local/bin/ts-node-transpile-only -> /usr/local/lib/node_modules/ts-node/dist/bin-transpile.js
+npm WARN ts-node@9.0.0 requires a peer of typescript@>=2.7 but none is installed. You must install peer dependencies yourself.
+
++ ts-node@9.0.0
+added 8 packages from 40 contributors in 0.44s
+(base) Kevins-MacBook-Pro-2:~ kevingunawan$ git --version
+git version 2.27.0
+(base) Kevins-MacBook-Pro-2:~ kevingunawan$ git config --global user.name "Kevin Lee"
+(base) Kevins-MacBook-Pro-2:~ kevingunawan$ git config --global user.email kevin.leegunawan8@gmail.com
+(base) Kevins-MacBook-Pro-2:~ kevingunawan$ cd /Users/kevingunawan/Documents/Code\ Ekskur/TypeScript/HELLO_BACKEND 
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (hello_backend) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/kevingunawan/Documents/Code Ekskur/TypeScript/HELLO_BACKEND/package.json:
+
+{
+  "name": "hello_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install body-parser --save
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ body-parser@1.19.0
+added 22 packages from 17 contributors and audited 22 packages in 2.063s
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install cors --save
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ cors@2.8.5
+added 3 packages from 3 contributors and audited 25 packages in 1.192s
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install dotenv --save
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ dotenv@8.2.0
+added 1 package and audited 26 packages in 0.583s
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install express --save
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ express@4.17.1
+added 27 packages from 25 contributors and audited 53 packages in 1.819s
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install jsonwebtoken --save
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ jsonwebtoken@8.5.1
+added 14 packages from 9 contributors and audited 67 packages in 1.507s
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install mongoose --save
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ mongoose@5.10.7
+added 27 packages from 18 contributors and audited 94 packages in 2.598s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install @types/body-parser --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ @types/body-parser@1.19.0
+added 3 packages from 52 contributors and audited 97 packages in 1.822s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install @types/cors --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ @types/cors@2.8.7
+added 7 packages from 26 contributors and audited 104 packages in 1.663s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install @types/cors --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ @types/cors@2.8.7
+updated 1 package and audited 104 packages in 1.48s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install @types/express --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ @types/express@4.17.8
+updated 1 package and audited 105 packages in 1.576s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install @types/jsonwebtoken --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ @types/jsonwebtoken@8.5.0
+added 1 package from 11 contributors and audited 106 packages in 1.883s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install @types/mongoose --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ @types/mongoose@5.7.36
+added 3 packages from 71 contributors and audited 109 packages in 1.725s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install @types/node --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ @types/node@14.11.2
+updated 1 package and audited 110 packages in 1.431s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install nodemon
+
+> nodemon@2.0.4 postinstall /Users/kevingunawan/Documents/Code Ekskur/TypeScript/HELLO_BACKEND/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+Love nodemon? You can now support the project via the open collective:
+ > https://opencollective.com/nodemon/donate
+
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ nodemon@2.0.4
+added 118 packages from 58 contributors and audited 228 packages in 5.669s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install ts-node
+npm WARN ts-node@9.0.0 requires a peer of typescript@>=2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ ts-node@9.0.0
+added 8 packages from 40 contributors and audited 236 packages in 1.087s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install ts-node --save-dev
+npm notice save ts-node is being moved from dependencies to devDependencies
+npm WARN ts-node@9.0.0 requires a peer of typescript@>=2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ ts-node@9.0.0
+updated 1 package and audited 236 packages in 1.745s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ npm install typescript --save-dev
+npm WARN hello_backend@1.0.0 No description
+npm WARN hello_backend@1.0.0 No repository field.
+
++ typescript@4.0.3
+added 1 package from 1 contributor and audited 237 packages in 1.783s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ git remote set-url origin https://github.com/kevinlee30/HELLO_BACKEND.git
+fatal: not a git repository (or any of the parent directories): .git
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ 
+  [Restored 4 Oct 2020 20.47.22]
+Last login: Sun Oct  4 20:47:19 on console
+Restored session: Sat Oct  3 20:20:25 WIB 2020
+-bash: /Users/kevingunawan/.profile: No such file or directory
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$ 
+  [Restored 4 Oct 2020 22.59.44]
+Last login: Sun Oct  4 22:59:41 on console
+Restored session: Sun Oct  4 20:54:11 WIB 2020
+-bash: /Users/kevingunawan/.profile: No such file or directory
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Kevins-MacBook-Pro-2:HELLO_BACKEND kevingunawan$      
