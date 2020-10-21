@@ -20,3 +20,23 @@ function startServer(){
 
 setImmediate(startServer);
 
+// APIs
+
+app.get('/index', (req, res) => {
+    console.log("req: ", req);
+    return res.status(200).json({message: "success !"});
+})
+app.post('/create', (req, res) => {
+    console.log("req: ", req);
+    return res.status(200).json({message: "success !"});
+})
+
+app.delete('/remove', (req, res) => {
+    console.log("req: ", req);
+    return res.status(200).json({message: "success !"});
+})
+
+app.put('/update', (req, res) => {
+    console.log("req: ", req);
+    return res.status(200).json({message: "success !"});
+})
