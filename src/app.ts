@@ -10,14 +10,6 @@ app.use(cors({origin:true}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-const server = http.createServer(app);
-//server initialization
-function startServer(){
-    server.listen(config.port, parseInt(config.host), function(){
-        console.log("Express server istening on %d, in %s mode %s", config.port, config.host, config.env);
-    });
-}
-
 setImmediate(startServer);
 
 // APIs
@@ -40,3 +32,11 @@ app.put('/update', (req, res) => {
     console.log("req: ", req);
     return res.status(200).json({message: "success !"});
 })
+
+const server = http.createServer(app);
+//server initialization
+function startServer(){
+    server.listen(config.port, parseInt(config.host), function(){
+        console.log("Express server istening on %d, in %s mode %s", config.port, config.host, config.env);
+    });
+}
